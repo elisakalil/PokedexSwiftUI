@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690FD22C2C4E9F5200A0BB78 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FD22B2C4E9F5200A0BB78 /* OnboardingViewModel.swift */; };
+		690FD22E2C4EA1BD00A0BB78 /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FD22D2C4EA1BD00A0BB78 /* OnboardingStep.swift */; };
 		69A9E63E2C21038F000B738B /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9E63D2C21038F000B738B /* PokedexApp.swift */; };
 		69A9E6402C21038F000B738B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9E63F2C21038F000B738B /* ContentView.swift */; };
 		69A9E6422C210391000B738B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E6412C210391000B738B /* Assets.xcassets */; };
@@ -14,6 +16,13 @@
 		69A9E64F2C210391000B738B /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9E64E2C210391000B738B /* PokedexTests.swift */; };
 		69A9E6592C210391000B738B /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9E6582C210391000B738B /* PokedexUITests.swift */; };
 		69A9E65B2C210391000B738B /* PokedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9E65A2C210391000B738B /* PokedexUITestsLaunchTests.swift */; };
+		69A9E66E2C2A48A6000B738B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9E66D2C2A48A6000B738B /* OnboardingView.swift */; };
+		69A9E6722C2A4F87000B738B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E6712C2A4F87000B738B /* Poppins-Medium.ttf */; };
+		69A9E6742C2A4F9C000B738B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E6732C2A4F9C000B738B /* Poppins-Bold.ttf */; };
+		69A9E6762C2A4FBF000B738B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E6752C2A4FBF000B738B /* Poppins-Light.ttf */; };
+		69A9E6792C2A4FCA000B738B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E6772C2A4FCA000B738B /* Poppins-Regular.ttf */; };
+		69A9E67A2C2A4FCA000B738B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E6782C2A4FCA000B738B /* Poppins-SemiBold.ttf */; };
+		69A9E67D2C2A5275000B738B /* MyColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A9E67C2C2A5274000B738B /* MyColors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690FD22B2C4E9F5200A0BB78 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		690FD22D2C4EA1BD00A0BB78 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
 		69A9E63A2C21038F000B738B /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A9E63D2C21038F000B738B /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		69A9E63F2C21038F000B738B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,14 @@
 		69A9E6542C210391000B738B /* PokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A9E6582C210391000B738B /* PokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexUITests.swift; sourceTree = "<group>"; };
 		69A9E65A2C210391000B738B /* PokedexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69A9E66D2C2A48A6000B738B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		69A9E6712C2A4F87000B738B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		69A9E6732C2A4F9C000B738B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		69A9E6752C2A4FBF000B738B /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		69A9E6772C2A4FCA000B738B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		69A9E6782C2A4FCA000B738B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		69A9E67B2C2A4FF1000B738B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		69A9E67C2C2A5274000B738B /* MyColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MyColors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +113,11 @@
 		69A9E63C2C21038F000B738B /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				69A9E67B2C2A4FF1000B738B /* Info.plist */,
+				69A9E66F2C2A4F2C000B738B /* Utils */,
 				69A9E6672C2103C8000B738B /* Onboarding */,
 				69A9E63D2C21038F000B738B /* PokedexApp.swift */,
 				69A9E63F2C21038F000B738B /* ContentView.swift */,
-				69A9E6412C210391000B738B /* Assets.xcassets */,
 				69A9E6432C210391000B738B /* Preview Content */,
 			);
 			path = Pokedex;
@@ -131,8 +151,57 @@
 		69A9E6672C2103C8000B738B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				69A9E66A2C2A486B000B738B /* ViewModel */,
+				69A9E6692C2A4861000B738B /* Model */,
+				69A9E6682C2A4859000B738B /* View */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		69A9E6682C2A4859000B738B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69A9E66D2C2A48A6000B738B /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69A9E6692C2A4861000B738B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				690FD22D2C4EA1BD00A0BB78 /* OnboardingStep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69A9E66A2C2A486B000B738B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				690FD22B2C4E9F5200A0BB78 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		69A9E66F2C2A4F2C000B738B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				69A9E6702C2A4F37000B738B /* Fonts */,
+				69A9E6412C210391000B738B /* Assets.xcassets */,
+				69A9E67C2C2A5274000B738B /* MyColors.xcassets */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		69A9E6702C2A4F37000B738B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				69A9E6772C2A4FCA000B738B /* Poppins-Regular.ttf */,
+				69A9E6782C2A4FCA000B738B /* Poppins-SemiBold.ttf */,
+				69A9E6752C2A4FBF000B738B /* Poppins-Light.ttf */,
+				69A9E6732C2A4F9C000B738B /* Poppins-Bold.ttf */,
+				69A9E6712C2A4F87000B738B /* Poppins-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +308,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A9E6722C2A4F87000B738B /* Poppins-Medium.ttf in Resources */,
+				69A9E67A2C2A4FCA000B738B /* Poppins-SemiBold.ttf in Resources */,
+				69A9E6762C2A4FBF000B738B /* Poppins-Light.ttf in Resources */,
 				69A9E6452C210391000B738B /* Preview Assets.xcassets in Resources */,
+				69A9E6792C2A4FCA000B738B /* Poppins-Regular.ttf in Resources */,
+				69A9E67D2C2A5275000B738B /* MyColors.xcassets in Resources */,
 				69A9E6422C210391000B738B /* Assets.xcassets in Resources */,
+				69A9E6742C2A4F9C000B738B /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A9E66E2C2A48A6000B738B /* OnboardingView.swift in Sources */,
 				69A9E6402C21038F000B738B /* ContentView.swift in Sources */,
 				69A9E63E2C21038F000B738B /* PokedexApp.swift in Sources */,
+				690FD22E2C4EA1BD00A0BB78 /* OnboardingStep.swift in Sources */,
+				690FD22C2C4E9F5200A0BB78 /* OnboardingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +511,7 @@
 				DEVELOPMENT_TEAM = 39AJ27VU38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +541,7 @@
 				DEVELOPMENT_TEAM = 39AJ27VU38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
